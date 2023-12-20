@@ -1,0 +1,323 @@
+body {
+    background-color: rgb(42, 42, 56);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header img {
+    width: 250px;
+}
+
+nav {
+    font-weight: bold;
+    background-color: #444;
+    padding: 0.5em;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+nav :hover {
+    color: orangered;
+}
+
+#products {
+    background-color: rgb(42, 42, 56);
+    padding: 20px;
+}
+
+.product h2 {
+    color: red;
+}
+
+.product {
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product img {
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    color: #ee7b7b;
+    font-size: 1.2em;
+}
+
+.product p {
+    color: #faf6f6;
+    line-height: 1.4;
+}
+
+.product:hover {
+    border-color: #ffcc00; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#services {
+    background-color: rgb(42, 42, 56);
+    padding: 20px;
+}
+
+.service {
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.service img {
+    width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.service h3 {
+    color:#ee7b7b;
+    font-size: 1.2em;
+}
+
+.service p {
+    color: #ffffff;
+    line-height: 1.4;
+}
+
+.service:hover {
+    border-color: #ffcc00;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+#about {
+    padding: 20px;
+}
+
+.about-section {
+    margin-bottom: 20px;
+}
+
+.about-section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.about-section p {
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+
+.about-section {
+    padding: 15px;
+}
+
+
+#contact {
+    padding: 20px;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form h3 {
+    color: #ee7b7b;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.contact-form form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.contact-form label {
+    color: #ffffff;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #f50b0b;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #ffcc00; 
+}
+
+
+#video {
+    padding: 20px;
+}
+
+#video p {
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#specials {
+    padding: 20px;
+}
+
+#specials p {
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.special-item {
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.special-item img {
+    width: 400px;;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.special-item h3 {
+    color: #ee7b7b;
+    font-size: 1.2em;
+}
+
+.special-item p {
+    color: #ffffff;
+    line-height: 1.4;
+}
+
+
+#faq {
+    padding: 20px;
+}
+
+#faq p {
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.faq-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    color: #ee7b7b;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    color: #ffffff;
+    line-height: 1.4;
+}
+
+#gallery {
+    padding: 20px;
+}
+
+#gallery p {
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.gallery-item {
+    margin-bottom: 20px;
+}
+
+.gallery-item img {
+    max-width: 400px;
+    height: auto;
+    border: 1px solid #ddd; 
+}
+
+.navigation-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-button,
+.next-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.back-button:hover,
+.next-button:hover {
+    background-color: #ffcc00;
+}
+
+
